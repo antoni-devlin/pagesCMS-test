@@ -1,0 +1,29 @@
+# .pages.yml
+
+media:
+  input: src/media
+  output: /media
+
+content:
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: src/posts
+    format: yaml-frontmatter
+    view:
+      fields: [title, date]
+    fields:
+      - name: title
+        label: Post Title
+        type: string
+        required: true
+      - name: date
+        label: Publication Date
+        type: date
+        required: true
+      - name: summary
+        label: Summary
+        type: text
+      - name: body
+        label: Content
+        type: rich-text

@@ -1,1 +1,4 @@
-# pagesCMS-test
+---
+title: A README
+---
+# {{ title }}
