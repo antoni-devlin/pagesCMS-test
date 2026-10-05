@@ -16,6 +16,9 @@ content:
       - name: title
         label: Post Title
         type: string
+      - name: published
+        type: boolean
+        default: false
         required: true
       - name: date
         label: Publication Date
