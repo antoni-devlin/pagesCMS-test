@@ -16,7 +16,7 @@ content:
       - name: title
         label: Post Title
         type: string
-      - name: published
+      - name: Pubished
         type: boolean
         default: false
         required: true
